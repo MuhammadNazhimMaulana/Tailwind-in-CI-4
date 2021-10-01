@@ -45,13 +45,13 @@ class Authorisasi extends BaseController
                 $user->password = $this->request->getPost('password');
 
                 $model->save($user);
-                return view('Authorisasi_View/login_view');
+                return view('Auth_View/login_view');
             }
 
             $this->session->setFlashdata('errors', $errors);
         }
 
-        return view('Authorisasi_View/register_view');
+        return view('Auth_View/register_view');
     }
 
     public function login()
@@ -96,7 +96,7 @@ class Authorisasi extends BaseController
             
         }
 
-        return view('Authorisasi_View/login_view');
+        return view('Auth_View/login_view');
     }
 
     public function logout()

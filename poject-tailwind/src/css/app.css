@@ -2,3 +2,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.label {
+  @apply left-4 top-2;
+}
+
+.input:focus + .label {
+  @apply -top-2 left-3.5 text-google text-xs font-medium;
+}

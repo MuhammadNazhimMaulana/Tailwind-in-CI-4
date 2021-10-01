@@ -9,7 +9,7 @@
     <!-- Link Untuk Tailwind -->
 	<link rel="stylesheet" href="<?= base_url('css/app.css') ?>">
 
-<body>
+<body class="m-0 p-0 font-sans text-base">
     
     <!-- Awal isi Auth -->
     <?= $this->renderSection('content_auth') ?>
