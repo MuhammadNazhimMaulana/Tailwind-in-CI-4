@@ -43,7 +43,7 @@ class Validation
 	// Bagian Register
 
 	public $register = [
-		'nama_lengkapa' => [
+		'nama_lengkap' => [
 			'rules' => 'required',
 		],
 		'username' => [
@@ -61,7 +61,7 @@ class Validation
 	];
 
 	public $register_errors = [
-		'nama_lengkapa' => [
+		'nama_lengkap' => [
 			'required' => '{field} Harus diisi',
 		],
 		'username' => [

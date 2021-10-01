@@ -33,15 +33,14 @@ class Authorisasi extends BaseController
             //Jika tidak ada error
             if (!$errors) {
 
-                $model = new User_M();
-                $user = new User_E();
+                $model = new Pengguna_M();
+                $user = new Pengguna_E();
 
                 // Dapatkan data yang telah di input
                 $user->fill($data);
                 $user->tingkat = 1;
                 $user->tgl_masuk = date("Y-m-d");
                 $user->created_at = date("Y-m-d H:i:s");
-                $user->foto_user = $this->request->getFile('foto_user');
                 $user->password = $this->request->getPost('password');
 
                 $model->save($user);
@@ -89,7 +88,7 @@ class Authorisasi extends BaseController
 
                 $this->session->set($session_data);
 
-                return redirect()->to(site_url('admin/'));
+                return redirect()->to(site_url('Home'));
             }
             
             $this->session->setFlashdata('errors', $errors);

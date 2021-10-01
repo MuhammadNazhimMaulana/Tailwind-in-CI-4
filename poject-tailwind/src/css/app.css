@@ -10,3 +10,11 @@
 .input:focus + .label {
   @apply -top-2 left-3.5 text-google text-xs font-medium;
 }
+
+.input:not(:placeholder-shown).input:not(:focus) + .label {
+  @apply -top-2 left-3.5 text-xs font-medium;
+}
+
+.input:not(:focus) {
+  @apply border border-solid border-gray-200;
+}

@@ -11,6 +11,9 @@ module.exports = {
       colors:{
         google: '#1A73E8',
       },
+      height:{
+        new: '150vh',
+      },
     },
   },
   variants: {
