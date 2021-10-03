@@ -6,4 +6,6 @@
 - Indonesian Version
   Ini adalah sebuah projek CI sederhana yang sudah terintegrasi dengan tailwind (Hanya Login dan Register) database untuk testing juga sudah disediakan. Setelah mengunduh file silakan dibuka di kode editor lalu buka terminal dan masukkan perintah npm install
 
-Preview Coming Soon
+Preview:
+
+<img width="960" alt="Tailwind Login" src="https://user-images.githubusercontent.com/59800930/135736946-fe60fe28-9bab-481d-8a49-aea8bbca7fb7.png">
