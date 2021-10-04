@@ -18,5 +18,6 @@
     <?= $this->renderSection('content_admin') ?>
     <!-- Akhir isi Auth -->
 
+    <script src="<?= base_url('js/main.js') ?>"></script>
 </body>
 </html>
