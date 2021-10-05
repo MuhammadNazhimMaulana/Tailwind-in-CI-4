@@ -16,5 +16,5 @@
 }
 
 .input:not(:focus) {
-  @apply border border-solid border-gray-200;
+  @apply border border-solid border-new;
 }

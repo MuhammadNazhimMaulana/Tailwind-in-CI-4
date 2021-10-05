@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors:{
         google: '#1A73E8',
+        new: '#eaeaea',
       },
       height:{
         new: '150vh',

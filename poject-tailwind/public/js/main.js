@@ -58,7 +58,7 @@ btnSideBar.onclick = function() {
     let sideMobile = document.querySelector('#sideMobile');
 
     if(sidebar.classList.contains('sm:block')){
-        sidebar.classList.replace('sm:block', 'hidden');
+        sidebar.classList.replace('sm:block', 'sm:hidden');
     }else{
         sidebar.classList.replace('sm:hidden', 'sm:block');    
     }
