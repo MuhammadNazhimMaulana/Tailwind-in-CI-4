@@ -1,58 +1,47 @@
-
-<!-- Awal Sidebar -->
-<main class="flex bg-gray-100">
-    <aside class="bg-blue-500 relative h-screen w-72 md:w-64 hidden sm:block shadow-xl">
-        <div class="p-6">
-            <a href="" class="text-white text-3xl font-semibold hover:text-gray-300">
-                <i class="fas fa-user-cog mr-3"></i>Admin
-            </a>
+        <!-- Sidebar -->
+        <div class="bg-gray-800 p-6 w-64 transition-all duration-500 ease-in-out sidebar">
+            <ul>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400 bg-gray-900 text-gray-400">
+                        <i class="fas fa-home h-4"></i>
+                        <span class="ml-2">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400">
+                        <i class="fas fa-address-card"></i>
+                        <span class="ml-2">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400">
+                        <i class="fas fa-table"></i>
+                        <span class="ml-2">Table</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400">
+                        <i class="fas fa-file-word"></i>
+                        <span class="ml-2">Documents</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400">
+                        <i class="fas fa-bookmark"></i>
+                        <span class="ml-2">Mark</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400">
+                        <i class="fas fa-shield-alt"></i>
+                        <span class="ml-2">Shield</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center px-4 py-3 rounded hover:bg-gray-900 hover:text-gray-400">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="ml-2">Logout</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <nav class="text-white text-base font-semibold pt-3">
-            <a href="" class="flex items-center active-nav-link text-white py-4 pl-6 nav-item">
-                <i class="fas fa-tachometer-alt mr-3"></i>Dashboard
-            </a>
-            <a href="" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-table mr-3"></i>Tables
-            </a>
-            <a href="" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-align-left mr-3"></i>Forms
-            </a>
-            <a href="" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-tablet-alt mr-3"></i>Tabbed Content
-            </a>
-            <a href="" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-calendar mr-3"></i>Calender
-            </a>
-            <a href="" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-cogs mr-3"></i>Support
-            </a>
-        </nav>
-    </aside>
-
-    <!-- Jadi Navbar Hp -->
-    <div class="w-full flex flex-col h-screen overflow-y-hidden">
-        <header class="w-full py-5 px-6 sm:hidden" id="sideMobile">
-            <nav class="text-white text-base font-semibold pt-3">
-                <a href="" class="block text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-tachometer-alt mr-3"></i>Dashboard
-                </a>
-                <a href="" class="block text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-table mr-3"></i>Tables
-                </a>
-                <a href="" class="block text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-align-left mr-3"></i>Forms
-                </a>
-                <a href="" class="block text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-tablet-alt mr-3"></i>Tabbed Content
-                </a>
-                <a href="" class="block text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-calendar mr-3"></i>Calender
-                </a>
-                <a href="" class="block text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                    <i class="fas fa-cogs mr-3"></i>Support
-                </a>
-            </nav>
-        </header>
-    </div>
-</main>
-<!-- Akhir Sidebar -->

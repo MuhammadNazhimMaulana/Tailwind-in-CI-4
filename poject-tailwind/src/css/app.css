@@ -18,3 +18,13 @@
 .input:not(:focus) {
   @apply border border-solid border-new;
 }
+
+/* Untuk Bagian Admin */
+
+.sidebar.hide {
+  @apply w-24 transition-all duration-500 ease-in-out;
+}
+
+.sidebar.hide span {
+  @apply opacity-0;
+}

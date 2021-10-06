@@ -32283,6 +32283,21 @@ video {
   border-color: rgba(234, 234, 234, var(--tw-border-opacity));
 }
 
+/* Untuk Bagian Admin */
+
+.sidebar.hide {
+  width: 6rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar.hide span {
+  opacity: 0;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
