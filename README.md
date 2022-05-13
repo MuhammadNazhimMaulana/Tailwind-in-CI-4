@@ -1,4 +1,4 @@
-# Tailwind in CI 4
+# CI4 And Tailwind
 
 - Englsih version
   This is an example of simple CI Project that is integrated with tailwind (Only login and register) the database for testing is also provided. After downloading the files you may open it on your code editor and open terminal then use npm install
